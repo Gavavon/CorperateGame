@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e52d27ed86f5324994b2e529907a53b, type: 3}
+  m_Name: AiAttackerPistolConfig
+  m_EditorClassIdentifier: 
+  maxHealth: 2
+  damage: 1
+  rangedHeadDamageModifier: 2
+  rangedBodyDamageModifier: 1
+  rangedArmDamageModifier: 0.75
+  rangedLegDamageModifier: 0.75
+  meleeHeadDamageModifier: 2
+  meleeBodyDamageModifier: 1.5
+  meleeArmDamageModifier: 1
+  meleeLegDamageModifier: 1
+  enemyBehaviors: 3
+  moveForwardPotShots: 1
+  moveForwardPotShotStop: 0
